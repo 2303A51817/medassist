@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rounded Medical Cross with Heartbeat Wave inside 66dp safe zone (21..87) -->
+    <!-- Medical Cross Vertical Bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,26 h14 c3.31,0 6,2.69 6,6 v44 c0,3.31 -2.69,6 -6,6 h-14 c-3.31,0 -6,-2.69 -6,-6 v-44 c0,-3.31 2.69,-6 6,-6 z" />
+    <!-- Medical Cross Horizontal Bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,47 h56 c3.31,0 6,2.69 6,6 v0 c0,3.31 -2.69,6 -6,6 h-56 c-3.31,0 -6,-2.69 -6,-6 v0 c0,-3.31 2.69,-6 6,-6 z" />
+    
+    <!-- Pulse Heartbeat Accent in Cyan -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#004D61"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M31,54 L44,54 L49,43 L54,65 L59,48 L63,54 L77,54" />
+        
+    <!-- Emergency Spark / Pill Badge in top right -->
+    <path
+        android:fillColor="#FFB703"
+        android:pathData="M73,31 c0,-2.76 2.24,-5 5,-5 c2.76,0 5,2.24 5,5 c0,2.76 -2.24,5 -5,5 c-2.76,0 -5,-2.24 -5,-5 z" />
+</vector>

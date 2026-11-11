@@ -1,0 +1,6 @@
+{
+  "name": "MedAssist",
+  "description": "Smart healthcare platform to find nearby medicines via voice or text search, check pharmacy stock, consult an NLP health assistant, dispatch emergency ambulances, order medicines with secure payment, and manage pharmacy inventories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
